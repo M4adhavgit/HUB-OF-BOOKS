@@ -55,7 +55,7 @@ class Login extends Component {
           id="username"
           value={username}
           className="input-element"
-          placeholder="Ex-Puneet"
+          placeholder="Enter the username"
           onChange={this.onChangeUsername}
         />
       </div>
@@ -75,7 +75,7 @@ class Login extends Component {
           id="password"
           value={password}
           className="input-element"
-          placeholder="Ex-puneet@2021"
+          placeholder="Enter the password"
           onChange={this.onChangePassword}
         />
       </div>
